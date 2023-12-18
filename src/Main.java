@@ -4,7 +4,9 @@ public class Main {
 
         /*int passes = Util.bubbleSort(arr);
         System.out.println("Passes: " + passes);*/
-        Util.selectionSort(arr);
+        //Util.selectionSort(arr);
+        //Util.insertionSort(arr);
+        Util.quickSort(arr, 0, arr.length-1);
 
         for(int val : arr) {
             System.out.print(val + " " );
